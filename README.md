@@ -9,9 +9,6 @@ The outcome of detection and classification is then carried by visualisation of 
 
 To create custom object detector, use the files 'Train_Cascade_Object_detector.m' and to train cascade classifier use the 'Train_Object_Classifier.m' file. Further analysis, such as F1 score, recall, precision and Jaccard index (IoU - Intersection over Union) can be calculated using the ‘data_analytics.m’ file.
 
-#### Pipeline of my model
-![Image Project Piplenie](https://drive.google.com/file/d/11pM5QeJA2b903K-TdhlH_9Lp3YivlP32/view?usp=sharing)
-
 #### Dataset used
 Dataset| Size         | Resolution                          | Description 
 --------------------------|--------------|-------------------------------------|------------
@@ -37,12 +34,12 @@ Open ALPR EU (cutom selected)|1.0000|0.70968|0.83019|0.58274|0.15134
 The table contains summary statistics for the performance of my model for each of the datasets used.
 
 #### Jaccard index visualisation
-![IoU graphical](www.com)
+![IoU graphical](https://github.com/kopeckylukas/vehicle-detection/blob/0ebb0f2131dd4833a73b7d4a48bae40b334e8ec1/Charts/Jaccard%20Indices.png)
 
 Histograms to show the performance of the model measured using the Jaccard Index. Dashed line and shaded region is a measure of the confidence interval (mean ± standard deviation).
 
 #### Comparision to ITI project results
-![ITI comparision Graphical](www.com)
+![ITI comparision Graphical](https://github.com/kopeckylukas/vehicle-detection/blob/0ebb0f2131dd4833a73b7d4a48bae40b334e8ec1/Charts/comparision%20to%20YOLO.png)
 
 The chart demonstrates comparison of ITI detection model (red) and FYP model (yellow) against the four main datasets. The ITI research group is using YOLO algorithm.
 
