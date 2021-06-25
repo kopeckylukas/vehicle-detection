@@ -24,7 +24,7 @@ Dataset| Size         | Resolution                          | Description
 [GTI](https://www.gti.ssr.upm.es/data/Vehicle_database.html)|7,325|360 x 256 & 64 x 64|Produced in 2012 by the Universidad Politécnica de Madrid, Spain. Contains close and mid-range vehicle picture from the rear as well as negative samples.
 [TSRD](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html)|6,164|Mixed|Contains images of Chinese traffic signs. Produced at the Beijing Jiaotong University.
 
-## Detector perfomance
+## Detector performance
 Dataset     |Recall    |Precision |F1 Score  |Mean IoU  |Standard Dev IoU
 ------------|----------|----------|----------|----------|-----------
 Caltech Cars|0.96774|0.49383|0.65395|0.6991|0.21587
